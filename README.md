@@ -12,7 +12,7 @@ Invisible reCAPTCHA
 Invisible reCAPTCHA is an improved version of reCAPTCHA v2(no captcha).
 In reCAPTCHA v2, users need to click the button: "I'm not a robot" to prove they are human. In invisible reCAPTCHA, there will be not embed a captcha box for users to click. It's totally invisible! Only the badge will show on the buttom of the page to hint users that your website is using this technology. (The badge could be hidden, but not suggested.)
 
-# Support Versions
+### Support Versions
 
 Currently supports Laravel 5.8.x
 
@@ -54,7 +54,14 @@ INVISIBLE_RECAPTCHA_DEBUG=false
 
 > There are three different captcha styles you can set: `bottomright`, `bottomleft`, `inline`
 
-> If you set `INVISIBLE_RECAPTCHA_BADGEHIDE` to true, you can hide the badge logo.
+> <strike>If you set `INVISIBLE_RECAPTCHA_BADGEHIDE` to true, you can hide the badge logo.</strike>
+>
+> **Note:** due to style issue for temporary (I might fix this later) you have no way to hide recaptcha badge unless you add your own css style manually.
+>
+> How?
+> ```css
+> .grecaptcha-badge {display: none !important;}
+> ```
 
 > You can see the binding status of those catcha elements on browser console by setting `INVISIBLE_RECAPTCHA_DEBUG` as true.
 
@@ -69,6 +76,7 @@ Before you render the captcha, please keep those notices in mind:
 ##### Display reCAPTCHA in Your View
 
 ```php
+// recommended
 {!! app('captcha')->render() !!}
 
 // or you can use this in blade
@@ -78,6 +86,7 @@ Before you render the captcha, please keep those notices in mind:
 With custom language support:
 
 ```php
+// recommended
 {!! app('captcha')->render('en') !!}
 
 // or you can use this in blade
@@ -259,7 +268,3 @@ This repo demonstrates how to use this package with ajax way.
 By: [CV. Irando](https://irando.co.id)
 
 Forked and improved from [albertcht invisible recaptcha](https://github.com/albertcht/invisible-recaptcha)
-
-## Showcases
-
-* [Laravel Boilerplate](https://github.com/Labs64/laravel-boilerplate)
