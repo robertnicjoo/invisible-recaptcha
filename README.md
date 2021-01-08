@@ -19,8 +19,6 @@ In reCAPTCHA v2, users need to click the button: "I'm not a robot" to prove they
 |        7.x        	|
 |        6.x        	|
 
-Currently supports Laravel 5.8.x
-
 ## Installation
 
 ```
