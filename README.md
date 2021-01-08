@@ -12,7 +12,12 @@ Invisible reCAPTCHA
 Invisible reCAPTCHA is an improved version of reCAPTCHA v2(no captcha).
 In reCAPTCHA v2, users need to click the button: "I'm not a robot" to prove they are human. In invisible reCAPTCHA, there will be not embed a captcha box for users to click. It's totally invisible! Only the badge will show on the buttom of the page to hint users that your website is using this technology. (The badge could be hidden, but not suggested.)
 
-### Support Versions
+
+|   Supported Versions	|
+|-------------------	|
+|       5.8.x        	|
+|       5.7.x        	|
+|       5.6.x        	|
 
 Currently supports Laravel 5.8.x
 
