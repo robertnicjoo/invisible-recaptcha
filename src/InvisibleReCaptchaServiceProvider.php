@@ -1,6 +1,6 @@
 <?php
 
-namespace Irando\InvisibleReCaptcha;
+namespace irando\InvisibleReCaptcha;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;

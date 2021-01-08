@@ -1,9 +1,9 @@
 Invisible reCAPTCHA
 ==========
 ![php-badge](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg)
-[![packagist-badge](https://img.shields.io/packagist/v/Irando/invisible-recaptcha.svg)](https://packagist.org/packages/Irando/invisible-recaptcha)
-[![Total Downloads](https://poser.pugx.org/Irando/invisible-recaptcha/downloads)](https://packagist.org/packages/Irando/invisible-recaptcha)
-[![travis-badge](https://api.travis-ci.org/Irando/invisible-recaptcha.svg?branch=master)](https://travis-ci.org/Irando/invisible-recaptcha)
+[![packagist-badge](https://img.shields.io/packagist/v/irando/invisible-recaptcha.svg)](https://packagist.org/packages/irando/invisible-recaptcha)
+[![Total Downloads](https://poser.pugx.org/irando/invisible-recaptcha/downloads)](https://packagist.org/packages/irando/invisible-recaptcha)
+[![travis-badge](https://api.travis-ci.org/irando/invisible-recaptcha.svg?branch=master)](https://travis-ci.org/irando/invisible-recaptcha)
 
 ![invisible_recaptcha_demo](http://i.imgur.com/1dZ9XKn.png)
 
@@ -19,7 +19,7 @@ Currently supports Laravel 5.8.x
 ## Installation
 
 ```
-composer require Irando/invisible-recaptcha
+composer require irando/invisible-recaptcha
 ```
 
 ## Laravel 5
@@ -29,7 +29,7 @@ composer require Irando/invisible-recaptcha
 Add ServiceProvider to the providers array in `app/config/app.php`.
 
 ```
-Irando\InvisibleReCaptcha\InvisibleReCaptchaServiceProvider::class,
+irando\InvisibleReCaptcha\InvisibleReCaptchaServiceProvider::class,
 ```
 
 > It also supports package discovery for Laravel 5.5.
@@ -150,7 +150,7 @@ $config['recaptcha.options'] = [
 
 In controller, use:
 ```php
-$data['captcha'] = new \Irando\InvisibleReCaptcha\InvisibleReCaptcha(
+$data['captcha'] = new \irando\InvisibleReCaptcha\InvisibleReCaptcha(
     $this->config->item('recaptcha.sitekey'),
     $this->config->item('recaptcha.secret'),
     $this->config->item('recaptcha.options'),
@@ -185,7 +185,7 @@ $options = [
     'timeout' => 5,
     'debug' => false
 ];
-$captcha = new \Irando\InvisibleReCaptcha\InvisibleReCaptcha($siteKey, $secretKey, $options);
+$captcha = new \irando\InvisibleReCaptcha\InvisibleReCaptcha($siteKey, $secretKey, $options);
 
 // you can override single option config like this
 $captcha->setOption('debug', true);

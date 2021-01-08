@@ -31,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Irando\\InvisibleReCaptcha\\": "src/"
+            "irando\\InvisibleReCaptcha\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Irando\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
+                "irando\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
             ]
         }
     }
