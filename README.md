@@ -3,7 +3,7 @@ Invisible reCAPTCHA
 ![php-badge](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg)
 [![packagist-badge](https://img.shields.io/packagist/v/irando/invisible-recaptcha.svg)](https://packagist.org/packages/irando/invisible-recaptcha)
 [![Total Downloads](https://poser.pugx.org/irando/invisible-recaptcha/downloads)](https://packagist.org/packages/irando/invisible-recaptcha)
-[![travis-badge](https://api.travis-ci.org/irando/invisible-recaptcha.svg?branch=master)](https://travis-ci.org/irando/invisible-recaptcha)
+[![Build Status](https://travis-ci.com/robertnicjoo/invisible-recaptcha.svg?branch=master)](https://travis-ci.com/robertnicjoo/invisible-recaptcha)
 
 ![invisible_recaptcha_demo](http://i.imgur.com/1dZ9XKn.png)
 
