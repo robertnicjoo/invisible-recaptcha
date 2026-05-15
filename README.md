@@ -1,6 +1,6 @@
 Invisible reCAPTCHA
 ==========
-![php-badge](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg)
+![php-badge](https://img.shields.io/badge/php-%5E7.3%20%7C%7C%20%5E8.0-8892BF.svg)
 [![packagist-badge](https://img.shields.io/packagist/v/irando/invisible-recaptcha.svg)](https://packagist.org/packages/irando/invisible-recaptcha)
 [![Total Downloads](https://poser.pugx.org/irando/invisible-recaptcha/downloads)](//packagist.org/packages/irando/invisible-recaptcha)
 [![Build Status](https://travis-ci.com/robertnicjoo/invisible-recaptcha.svg?branch=master)](https://travis-ci.com/robertnicjoo/invisible-recaptcha)
@@ -18,6 +18,9 @@ In reCAPTCHA v2, users need to click the button: "I'm not a robot" to prove they
 
 |   Supported Laravel Versions	|
 |-------------------	|
+|        13.x        	|
+|        12.x        	|
+|        11.x        	|
 |        10.x        	|
 |        9.x        	|
 |        8.x        	|
