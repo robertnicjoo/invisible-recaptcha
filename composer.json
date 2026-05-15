@@ -12,7 +12,12 @@
         "irando",
         "cv irando",
         "php",
-        "laravel8"
+        "laravel8",
+        "laravel9",
+        "laravel10",
+        "laravel11",
+        "laravel12",
+        "laravel13"
     ],
     "license": "MIT",
     "authors": [
